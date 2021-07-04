@@ -1,0 +1,52 @@
+.card-container {
+  width: 344.5px;
+  height: 352px;
+  margin: 50px;
+  background-color: #ffffff;
+  box-shadow: #9aa3bc 1px 1px 1px;
+  border-radius: 16px;
+}
+.summary {
+  margin: 25px 177.5px 35px 24px;
+  width: 144px;
+  color: #3b5cb8;
+  font-size: 25px;
+  font-weight: 800;
+}
+.invested {
+  font-size: 16px;
+  color: #606377;
+  text-align: center;
+  margin-bottom: 7px;
+}
+.value {
+  font-size: 22px;
+  font-weight: 800;
+  color: #3b5cb8;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.profitability {
+  font-size: 16px;
+  color: #606377;
+  margin-left: 23.5px;
+  margin-bottom: 12px;
+}
+.cdi {
+  font-size: 16px;
+  color: #606377;
+  margin-left: 23.5px;
+  margin-bottom: 12px;
+}
+.gain {
+  font-size: 16px;
+  color: #606377;
+  margin-left: 23.5px;
+  margin-bottom: 12px;
+}
+.btn {
+  float: right;
+  margin-right: 25.5px;
+  margin-bottom: 14px;
+}
+

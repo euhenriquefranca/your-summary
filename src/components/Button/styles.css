@@ -1,0 +1,15 @@
+.button {
+  width: 103px;
+  height: 32px;
+  box-shadow: 1px 1px 1px 1px #00000029;
+  background-color: #ffffff;
+  border-radius: 35px;
+  border-color: #3b5cb8;
+  cursor: pointer;
+}
+.button .button-text {
+  font-weight: 700;
+  color: #3b5cb8;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 16px;
+}
