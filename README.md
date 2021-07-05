@@ -10,6 +10,10 @@ Card **Your Summary** from the Fliper Web dashboard, consuming the data with apo
 
 ## 🗂 To run the **project** on your machine you must:
 
+* Clone the repository
+```sh
+$ git clone https://github.com/euhenriquefranca/your-summary.git
+```
 * Access the root directory
 ```sh
 $ cd your-summary
