@@ -1,0 +1,105 @@
+.item {
+  width: 344.5px;
+  height: 352px;
+  margin: 50px;
+  background-color: #ffffff;
+  -webkit-box-shadow: #9aa3bc 1px 1px 1px;
+  box-shadow: #9aa3bc 1px 1px 1px;
+  border-radius: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.more-svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+.summary {
+  margin: 25px 0px 35px 24px;
+  width: 144px;
+  height: 30px;
+  color: #3b5cb8;
+  font-size: 25px;
+  font-weight: 800;
+}
+.invested {
+  font-size: 16px;
+  color: #606377;
+  text-align: center;
+}
+.value {
+  font-size: 22px;
+  font-weight: 800;
+  color: #3b5cb8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profitability-container {
+  display: flex;
+  justify-content: space-between;
+  height: 22px;
+  margin-bottom: 12px;
+}
+.profitability {
+  font-size: 16px;
+  color: #606377;
+  margin-left: 23.5px;
+}
+.profitability-value {
+  font-weight: 800;
+  color: #3b5cb8;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+  margin-right: 23.5px;
+}
+.cdi-container {
+  display: flex;
+  justify-content: space-between;
+  height: 22px;
+  height: 22px;
+  margin-bottom: 12px;
+}
+.cdi {
+  font-size: 16px;
+  color: #606377;
+  margin-left: 23.5px;
+}
+.cdi-value {
+  font-weight: 800;
+  color: #3b5cb8;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+  margin-right: 23.5px;
+}
+.gain-container {
+  display: flex;
+  justify-content: space-between;
+  height: 22px;
+  margin-bottom: 26px;
+}
+.gain {
+  font-size: 16px;
+  color: #606377;
+  margin-left: 23.5px;
+}
+.gain-value {
+  font-weight: 800;
+  color: #3b5cb8;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 18px;
+  margin-right: 23.5px;
+}
+.line {
+  width: 296px;
+  border: 0.5px solid;
+  border-color: #9aa3bc;
+  margin: 24px 24px 18px 24px;
+  opacity: 30%;
+}
+.btn {
+  float: right;
+  margin-right: 25.5px;
+}
