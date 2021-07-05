@@ -1,9 +1,9 @@
 import React from "react";
 
-import Card from "./components/Card";
+import SummaryContextProvider from "./context/SummaryContext";
 import { summary } from "./config/summary-graphql";
 import { ApolloProvider } from "@apollo/client";
-import SummaryContextProvider from "./context/SummaryContext";
+import Summary from "./components/Summary";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <ApolloProvider client={summary}>
       <SummaryContextProvider>
         <div className="container">
-          <Card />
+          <Summary />
         </div>
       </SummaryContextProvider>
     </ApolloProvider>

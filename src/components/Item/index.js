@@ -4,7 +4,7 @@ import More from "../More";
 
 import "./styles.css";
 
-export default function Item({ item }) {
+export default function Item({ total, profitability, cdi, gain }) {
   return (
     <div className="item">
       <div className="header">
@@ -15,23 +15,23 @@ export default function Item({ item }) {
       </div>
       <p className="invested">Valor investido</p>
       <p className="value">
-        {item.total.toLocaleString("pt-br", {
+        {total.toLocaleString("pt-br", {
           style: "currency",
           currency: "BRL",
         })}
       </p>
       <div className="profitability-container">
         <p className="profitability">Rentabilidade/mês</p>
-        <p className="profitability-value">{item.profitability.toFixed(3)}%</p>
+        <p className="profitability-value">{profitability.toFixed(3)}%</p>
       </div>
       <div className="cdi-container">
         <p className="cdi">CDI</p>
-        <p className="cdi-value">{item.cdi.toFixed(2)}%</p>
+        <p className="cdi-value">{cdi.toFixed(2)}%</p>
       </div>
       <div className="gain-container">
         <p className="gain">Ganho/mês</p>
         <p className="gain-value">
-          {item.gain.toLocaleString("pt-br", {
+          {gain.toLocaleString("pt-br", {
             style: "currency",
             currency: "BRL",
           })}
