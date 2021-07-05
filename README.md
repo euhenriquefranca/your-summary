@@ -4,9 +4,9 @@
 Card **Your Summary** from the Fliper Web dashboard, consuming the data with apollo client(GraphQL).
 
 ## 🚀 Technologies used
-- [ReactJS]
-- [Apollo Client]
-- [Context API]
+- [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
+- [Apollo Client](https://www.apollographql.com/docs/)
+- [Context API](https://pt-br.reactjs.org/docs/context.html)
 
 ## 🗂 To run the **project** on your machine you must:
 
