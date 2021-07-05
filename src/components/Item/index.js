@@ -14,18 +14,28 @@ export default function Item({ item }) {
         </div>
       </div>
       <p className="invested">Valor investido</p>
-      <p className="value">{item.total}</p>
+      <p className="value">
+        {item.total.toLocaleString("pt-br", {
+          style: "currency",
+          currency: "BRL",
+        })}
+      </p>
       <div className="profitability-container">
         <p className="profitability">Rentabilidade/mês</p>
-        <p className="profitability-value">2,767%</p>
+        <p className="profitability-value">{item.profitability.toFixed(3)}%</p>
       </div>
       <div className="cdi-container">
         <p className="cdi">CDI</p>
-        <p className="cdi-value">{item.cdi}%</p>
+        <p className="cdi-value">{item.cdi.toFixed(2)}%</p>
       </div>
       <div className="gain-container">
         <p className="gain">Ganho/mês</p>
-        <p className="gain-value">R${item.gain}</p>
+        <p className="gain-value">
+          {item.gain.toLocaleString("pt-br", {
+            style: "currency",
+            currency: "BRL",
+          })}
+        </p>
       </div>
       <div className="line"></div>
       <div className="btn">
